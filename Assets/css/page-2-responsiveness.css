@@ -1,0 +1,254 @@
+@media (max-width: 768px) {
+  .nav-left,
+  .nav-right {
+    display: none;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+    background: rgba(22, 22, 22, 0.863);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.916);
+  }
+
+  .mobile-menu {
+    display: block;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(148, 48, 48, 0.2)),
+      (rgba(167, 67, 67, 0.4));
+    width: 100%;
+  }
+
+  .main-text {
+    padding: 34vw 9vw;
+    margin: 20px auto;
+  }
+
+  .logo img {
+    width: 100%;
+  }
+
+  #carsoul-div {
+    padding: 12vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #carsoul-div h2 {
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  .container {
+    margin: 20px auto;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin: 20px auto;
+  }
+
+  .offers {
+    margin-top: 12px;
+  }
+
+  .details {
+    margin-bottom: 12px;
+    width: 100%;
+    border: none;
+    margin-top: 12px;
+  }
+
+  .details h3 {
+    font-size: 13px;
+    line-height: 35px;
+  }
+
+  .highlights-div {
+    margin-bottom: 33px;
+    margin-top: 33px;
+  }
+
+  form{
+    display: block;
+    margin: auto;
+  }
+  
+  .cards-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+  }
+
+  .cards {
+    font-size: 2.4vw;
+  }
+
+  .right {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  #carsoul-div h1 {
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  .container button {
+    display: none;
+  }
+
+  .contact-div {
+    flex-wrap: wrap;
+  }
+
+  .contact-right {
+    width: 100%;
+  }
+  
+  .contact-left {
+    width: 100%;
+  }
+  
+  .contact-left p {
+    margin-bottom: 12px;
+  }
+  
+  .contact-right p {
+    margin-bottom: 12px;
+  }
+  
+  .btn-custom {
+    margin-top: 8px;
+  }
+  
+}
+
+@media (max-width: 500px) {
+  .logo img {
+    width: 100%;
+  }
+  #carsoul-div {
+    padding: 22vw 1vw 0 1vw ;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #carsoul-div h2 {
+    font-size: 4.5vw;
+    text-align: center;
+  }
+
+  .container {
+    margin: 20px auto;
+    position: relative;
+    width: 95%;
+    height: 245px;
+    margin: 20px auto;
+  }
+
+  .offers {
+    margin-top: 12px;
+    flex-wrap: wrap;
+  }
+
+  .details {
+    margin-bottom: 12px;
+    width: 100%;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 1px solid #000;
+    width: 55%;
+    padding: 8px;
+
+  }
+
+  .details h3 {
+    font-size: 13px;
+    line-height: 1.3;
+    text-align: center;
+  }
+
+  .details span {
+    text-align: center;
+  }
+
+  .highlights-div {
+    flex-direction: column;
+  }
+
+  form{
+    display: block;
+    margin: auto;
+  }
+  
+  .cards-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+  }
+
+  .cards {
+    font-size: 4.4vw;
+    margin-bottom: 12px;
+  }
+
+  .right {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .contact-div {
+    flex-wrap: wrap;
+  }
+
+  .contact-right {
+    text-align: center;
+    width: 100%;
+  }
+
+  .contact-left {
+    text-align: center;
+    width: 100%;
+  }
+
+  .contact-left h2 {
+    font-size: 21px;
+  }
+  
+  .contact-right h2 {
+    font-size: 21px;
+  }
+  
+  .contact-left p {
+    margin-bottom: 12px;
+  }
+  
+  .contact-right p {
+    margin-bottom: 12px;
+  }
+  
+  .btn-custom {
+    margin-top: 8px;
+  }
+
+}
+
+
+/* #006D93 */
